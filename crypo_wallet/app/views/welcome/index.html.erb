@@ -1,0 +1,27 @@
+<h1>Seja bem vindo</h1>
+
+<%= render "menu" %> <!-- Utilizando as Partils -->
+<p>
+    Meu nome é : <strong><%= @meu_nome %></strong> <!--passando parametro para a controller -->
+    e estou fazendo o <strong><%= @curso %></strong> <!--passando parametro para a controller -->
+</p>
+<p>
+    <strong>Data: <strong/><%= data_br(Date.today) %>
+</p>
+
+<p>
+    Você está no ambiente de <strong><%= ambiente_rails %></strong>
+</p>
+
+<p>
+    Fogaça
+</p>
+
+<p> A soma é  : <%= 1 + 2 %></p>
+<p>O seu nome é : <%= "Antonio"%></p>
+
+<% ax = "Minha variavel a é " %>
+<%= ax %>
+<p> A data de hoje: <%= Date.today %></p>
+
+
